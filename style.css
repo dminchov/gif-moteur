@@ -1,0 +1,142 @@
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .form{
+    margin-top: 30px;
+  }
+  
+  #search-box {
+    width: 500px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 18px;
+    margin: 20px;
+    
+    background-color: antiquewhite;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+  }
+  
+  button {
+    background-color: #aa77ff;
+    color: #333;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 25px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  button.active {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  #results-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 150px;
+    padding-top: 70px;
+  }
+  
+
+  img {
+    width: 20%;
+    height: 25%;
+    margin: 10px;
+    border-radius: 10px;
+  }
+ 
+
+body {
+	font-family: sans-serif;
+	background-color: #1a1d24;
+	display: grid;
+	place-content: center;
+	height: 90vh;
+	padding: 5px;
+	color: #fff;
+}
+
+.hbtn {
+    position: relative;
+    box-sizing: border-box;
+    display: inline-block;
+    overflow: hidden;
+    padding: 8px 20px;
+    margin: 0px 3px 6px;
+    text-align: center;
+    border: 2px solid rgb(255, 255, 255);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    white-space: nowrap;
+    z-index: 0;
+} 
+
+
+.hbtn i {
+    padding-right: 8px;
+} 
+
+
+.hb-fill-middle::before {
+    position: absolute;
+    content: "";
+    background: #97deff;
+    transition-duration: 0.3s;
+    z-index: -1;
+    inset: auto auto 0px 0px;
+    width: 100%;
+    height: 0px;
+    opacity: 1;
+} 
+
+
+.hb-fill-middle:hover::before {
+    width: 100%;
+    height: 50%;
+    opacity: 1;
+} 
+
+
+.hb-fill-middle2:hover {
+    color: rgb(0, 0, 0);
+    background: #97deff;
+    transition: color 0.3s ease 0s, background 0s ease 0.3s;
+} 
+
+
+.hb-fill-middle::after {
+    position: absolute;
+    content: "";
+    background: #62cdff;
+    transition-duration: 0.3s;
+    z-index: -1;
+    inset: 0px auto auto 0px;
+    width: 100%;
+    height: 0px;
+    opacity: 1;
+} 
+
+
+.hb-fill-middle:hover::after {
+    height: 50%;
+} 
+h1{
+    font-family: 'Inter Tight', sans-serif;
+    font-family: 'Rubik Dirt', cursive;
+    font-family: 'Vollkorn SC', serif;
+}
